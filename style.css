@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff2f0; /* более яркий фон */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 120px; /* чуть выше, чтобы выглядело динамично */
+}
+
+h1 {
+  color: #ff4d00; /* ярко-оранжевый */
+  font-size: 34px; /* чуть больше, чтобы привлекало внимание */
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.3;
+  text-shadow: 1px 1px 2px #f5c6b1; /* легкая подсветка */
+}
+
+p {
+  color: #333;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-weight: 600;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ff6600; /* кричащий оранжевый */
+  color: #fff;
+  padding: 18px 40px;
+  border-radius: 35px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255,102,0,0.5); /* тень для эффекта */
+}
+
+.btn:hover {
+  background-color: #ff4500;
+  transform: scale(1.05); /* лёгкое увеличение при наведении */
+}
